@@ -42,3 +42,16 @@
         }
   - 지금 사용하고있는 컴퓨터에 사용된 wifi와 동일한 wifi를 입력해 주어야합니다.
      
+5. raspberry pi 연결
+  - raspberry pi에 전원 어뎁터를 연결하여 on해줍니다.
+  - cmd 창을 열어서 "ping raspberrypi.local"을 해서 걸리는지 확인합니다. 만약 ping이 걸린다면 와이파이를 제대로 잡은 것입니다.
+  - 만약에 위에 코드를 입력했는데 실패가 된다면?
+      (1) cmd 창에서 "ipconfig"를 입력하여 "무선 LAN 어댑터 Wi-Fi: "이 뒤에오는 ip주소와 ping했을 때 나오는 주소와 일치하는지 확인합니다.
+      (2) 일치하다면 파일의 수정을 권해드리고,
+      (3) 일치하지 않다면, nmap를 설치해서 raspberry pi의 ip주소를 찾아내야합니다.
+      (4) nmap 설치가 완료되면 cmd 창에서 nmap의directory로 이동해줍니다. (cd nmapDirectory)
+      (5) 무선 LAN ip 주소가 예를 들어, 190.160.0.72이라면 "nmap -sn 190.160.0.0/24"를 입력해줍니다.
+           > "nmap -sn 무선.LAN.ip.주소(마지막수는 0/24)"
+      (6) raspberry의 ip주소가 나옵니다.
+      (7) 이래도 나오지 않는다면 세팅의 문제!
+      
