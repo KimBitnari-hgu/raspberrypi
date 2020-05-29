@@ -1,0 +1,6 @@
+### 1. raspberry pi 필요한 파일들 다운
+  - raspberry 오피셜 페이지에 들어가서 imager와 raspbian을 다운받습니다.
+    > 주소: https://www.raspberrypi.org/downloads/
+
+  - imager는 각자의 OS에 맞는 것을 다운받으면 됩니다.
+  - raspbian은 Raspbian Buster with desktop and renommended software을 zip파일로 다운받습니다.
