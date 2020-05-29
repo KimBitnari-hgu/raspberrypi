@@ -70,3 +70,10 @@
   
 <hr>
 
+기본 페이지를 변경하고 싶다면 
+  1. 먼저 "cd /var/www/html"를 입력해서 이동합니다.
+  2. "vi index.html"를 입력해서 내용 작성 후, "cat index.html"로 내용을 확인합니다.
+  3. 페이지 새로고침해서 바뀌었는지 확인합니다.
+  
+아래의 링크는 본 내용의 원본이 있는 블로그로, 사진도 같이 있어 더 이해하기 쉬울 것입니다:)
+  > https://velog.io/@qkqhqhrh11/Raspberry-Pi%EC%97%90-web-service-setting
