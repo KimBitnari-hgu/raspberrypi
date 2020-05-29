@@ -4,3 +4,21 @@
   - imager는 각자의 OS에 맞는 것을 다운받으면 됩니다.
   - raspbian은 Raspbian Buster with desktop and renommended software을 zip파일로 다운받습니다.
 
+2. imager 실행
+  - imager가 .exe파일로 다운로드 완료되었다면 그 파일을 클릭해 설치해줍니다.
+  - imager가 실행되면 SD카드를 컴퓨터에 넣어줍니다.
+
+  2-1. SD카드 메모리 포맷해줍니다.
+    - OS는 "ERASE"
+    - SD카드는 방금 넣은 카드 선택 후,
+    - WRITE 클릭 => 포맷 완료
+  
+  2-2. 다운받은 zip파일로 OS넣어줍니다.
+    - OS는 "Use custom" 클릭 -> 다운받은 raspbian zip파일 클릭
+        (이때, 경로에 한글로 된 경로가 있다면 에러가 나니까 zip파일을 한글 경로가 없도록 이동시켜주세요!)
+    - SD카드는 동일하게 넣어둔 SD카드 선택 후,
+    - WRITE 클릭 => 완료
+    
+  - SD카드 뺐다가 다시 넣어줍니다.
+  - SD카드의 이름이 boot라고 생기고, 그 안에 내용들이 들어간 것을 확인할 수 있습니다.
+  
