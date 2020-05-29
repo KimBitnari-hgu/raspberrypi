@@ -55,3 +55,16 @@
       (6) raspberry의 ip주소가 나옵니다.
       (7) 이래도 나오지 않는다면 세팅의 문제!
       
+6. raspberry pi web service setting
+  - raspberry의 ip주소를 찾았다면은 putty를 실행시켜서 HostName에 raspberry ip주소를 입력하고 open합니다.
+  - 창이 뜨면 id는 "pi", password는 "raspberry"를 입력해줍니다.
+  - "sudo su –"를 입력해서 superuser를 변경합니다.
+      > - pi@raspberrypi가 root@raspberrypi로 변경된 것을 확인할 수 있습니다.
+  - "apt-get update"를 입력해서 패키지 정보를 업데이트합니다.
+  - Web server인 nginx를 설치해줍니다. (apt-get install nginx)
+      > 밑에 ~~~continue? 라고 뜨면 enter 또는 Y를 입력해주세요 -> 그러면 계속 이어서 실행
+  - 서버를 실행합니다. (service nginx start) -> 아무것도 뜨고 않으면 정상적으로 서비스 가동된 것
+  - ip주소를 까먹었다면?
+      > "ifconfig"를 입력 -> wlan0 부분에 inet 뒤에 오는 ip주소
+  - 해당 ip주소를 url에 입력하면 기본 페이지 뜹니다. 웹서버 가동 성공!
+  
