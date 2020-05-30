@@ -3,3 +3,6 @@
 2. 슈퍼 유저되기
   - sudo su -
   
+3. raspi-config 명령어 사용하기
+  - raspi-config
+  
