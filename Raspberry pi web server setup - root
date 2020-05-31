@@ -27,3 +27,6 @@
 4. 심볼릭 링크 제작
   > ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/test.com
 
+5. 웹서비스 세팅 테스트
+  > nginx -t
+
