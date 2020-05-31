@@ -24,3 +24,6 @@
                   index index.html;
           }
           
+4. 심볼릭 링크 제작
+  > ln -s /etc/nginx/sites-available/test.com /etc/nginx/sites-enabled/test.com
+
