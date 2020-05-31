@@ -11,3 +11,16 @@
   - 사용자의 웹사이트가 돌아갈 수 있도록 세팅을 해줍니다.
   - 도메인(test.com)을 생성해줍니다.
   - server_name과 root dir.를 잘 확인해서 작성해주세요
+  > vi /etc/nginx/sites-available/test.com
+  > cd /etc/nginx/sites-available
+  > cat test.com
+  > 내용: server {
+                  listen 80;
+                  listen [::]:80;
+                  
+                  server_name test.com;
+                  
+                  root /home/username/html;
+                  index index.html;
+          }
+          
