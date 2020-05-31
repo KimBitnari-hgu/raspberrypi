@@ -2,3 +2,8 @@
   > sudo su -
 
 2. 사용자 계정 추가
+
+  - 계정을 하나 만들어주고, 비밀번호까지 만들어 줍니다.
+  > useradd -m username
+  > passwd username
+  
