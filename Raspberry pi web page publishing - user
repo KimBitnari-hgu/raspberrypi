@@ -7,3 +7,7 @@
 1. putty 접속
   - username@IP주소를 입력해주면 됩니다.
 
+2. 비밀번호 변경
+  - 관리자가 만든 비밀번호를 변경해줍니다.
+  - 코드: passwd username
+
