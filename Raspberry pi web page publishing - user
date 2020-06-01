@@ -25,3 +25,6 @@
 7. 수정해보기
   - 탭의 title과 메뉴의 위치와 중앙의 글을 조금 수정해보았습니다.
 
+8. github에 반영하기
+  - git global 값초기화
+  - git add & commit & push 해주기
