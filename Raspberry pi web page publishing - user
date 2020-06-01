@@ -4,3 +4,6 @@
   - C:\Windows\System32\drivers\etc에 가서 hosts라는 파일에 ip주소와 도메인 이름을 추가해줍니다.
   - github에서 웹 페이지 템플릿 중 마음에 드는 것 하나를 자신의 계정에 fork해줍니다.
 
+1. putty 접속
+  - username@IP주소를 입력해주면 됩니다.
+
