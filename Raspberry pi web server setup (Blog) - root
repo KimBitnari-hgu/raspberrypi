@@ -9,3 +9,11 @@
   - Batflat을 사용해서 blog를 만들어보려고 합니다.
   - project page: https://batflat.org
   - github site: https://github.com/sruupl/batflat
+
+3-1. Install Nginx HTTP Server
+  - 아래 코드들을 실행합니다.
+  - 저는 처음 web service setting 했을 때 해주었기 때문에 넘어가도록 하겠습니다.
+  1) apt update
+  2) apt install nginx
+  3) service nginx restart
+
