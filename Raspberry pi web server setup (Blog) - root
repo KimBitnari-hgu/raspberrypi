@@ -17,3 +17,8 @@
   2) apt install nginx
   3) service nginx restart
 
+3-2. Install PHP 7.3 & Related Modules
+  - 아래의 코드들을 실행합니다.
+  1) apt install software-properties-common
+  2) apt update
+  3) apt install php7.3-fpm php7.3-common php7.3-mbstring php7.3-xmlrpc php7.3-sqlite3 php7.3-soap php7.3-gd php7.3-xml php7.3-cli php7.3-curl php7.3-zip
