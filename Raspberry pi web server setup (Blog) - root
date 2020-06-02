@@ -22,3 +22,17 @@
   1) apt install software-properties-common
   2) apt update
   3) apt install php7.3-fpm php7.3-common php7.3-mbstring php7.3-xmlrpc php7.3-sqlite3 php7.3-soap php7.3-gd php7.3-xml php7.3-cli php7.3-curl php7.3-zip
+
+3-3. Configure Nginx Batflat site
+  - 가상호스트로 세팅합니다.
+      > 도메인: narisblog.com
+      > 사용자: nari (첫번째 web server setup에서 추가됨)
+      > 도큐먼트 홈: /home/nari/html/blog
+  - 아래의 코드들을 실행합니다.
+  1) cd /etc/nginx/sites-available
+  2) vi narisblog.com
+  3) cd /etc/nginx/sites-enabled
+  4) ln -s /etc/nginx/sites-available/narisblog.com narisblog.com
+  5) nginx -t
+  6) service nginx restart
+
