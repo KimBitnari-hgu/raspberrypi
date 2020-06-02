@@ -4,3 +4,8 @@
 2. 슈퍼유저 되기
   - 아래의 코드로 슈퍼유저가 됩니다.
   - sudo su -
+
+3. Batflat
+  - Batflat을 사용해서 blog를 만들어보려고 합니다.
+  - project page: https://batflat.org
+  - github site: https://github.com/sruupl/batflat
