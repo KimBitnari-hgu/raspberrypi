@@ -6,3 +6,6 @@
 1. 개인 계정으로 로그인
   - putty에서 hostname을 "username@ip주소"로 해서 접속해주시면 됩니다.
   
+2. Download Batflat Latest Release
+  - 아래의 코드들을 실행하면 됩니다.
+    
