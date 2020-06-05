@@ -16,3 +16,10 @@
     6) mkdir ./tmp
     7) mkdir ./admin/tmp
     8) chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
+
+3. 완료
+  - url 입력바에 "servername(***.com)" 검색
+  - "servername(***.com)/admin/"을 입력하시면 관리자 페이지로 들어갈 수 있습니다.
+  - 관리자 계정: admin / admin
+  - 관리자 페이지 작동 연습 / 변경
+      > 설명 페이지 따로 생성해두었습니다. 참고하세요
