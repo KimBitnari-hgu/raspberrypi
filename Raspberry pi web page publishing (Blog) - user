@@ -8,4 +8,11 @@
   
 2. Download Batflat Latest Release
   - 아래의 코드들을 실행하면 됩니다.
-    
+    1) cd html
+    2) wget https://github.com/sruupl/batflat/archive/master.zip
+    3) unzip master.zip
+    4) mv batflat-master blog
+    5) cd blog
+    6) mkdir ./tmp
+    7) mkdir ./admin/tmp
+    8) chmod -R 777 ./uploads ./inc/data ./admin/tmp ./tmp
