@@ -2,3 +2,7 @@
   - "ip주소 (tab) servername"
   - 아래의 링크에서 0번을 참고해주세요.
       > https://velog.io/@qkqhqhrh11/Raspberry-pi-web-page-publishing-user
+
+1. 개인 계정으로 로그인
+  - putty에서 hostname을 "username@ip주소"로 해서 접속해주시면 됩니다.
+  
